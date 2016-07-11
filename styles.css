@@ -7,10 +7,26 @@
 	text-align: center;
 }
 
+#intro {
+	text-align: center;
+}
+
 .list {
 	position: absolute;
 	top: 120px;
-	left: 400px;
+	left: 600px;
 	background-color: silver;
 	padding: 5px;
+}
+
+#survey {
+	margin: 10px;
+}
+
+li {
+	margin: 2px;
+}
+
+a:visited {
+	color: purple;
 }
