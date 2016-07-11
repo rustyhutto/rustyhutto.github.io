@@ -1,8 +1,14 @@
 
 
-.Title {
+#Title {
 	padding-top: 10px;
 	border: 1px solid black;
 	background-color: silver;
 	text-align: center;
+}
+
+.list {
+	position: absolute;
+	top: 120px;
+	left: 400px;
 }
