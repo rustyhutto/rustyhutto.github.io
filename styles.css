@@ -27,9 +27,10 @@
 
 #survey {
 	margin: 10px;
-	background-color: silver;
+	background-image: url(http://www.audubon.org/sites/default/files/Yellow_Warbler_l07-48-261_l_1.jpg);
 	padding: 5px;
 	text-align: center;
+	background-size: 10%;
 	}
 
 .table {
