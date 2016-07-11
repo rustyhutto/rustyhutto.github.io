@@ -1,3 +1,64 @@
-body {
-	background: blue;
+
+
+#Title {
+	padding-top: 10px;
+	border: 1px solid black;
+	background-color: silver;
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+	font-family: cursive;
+}
+
+#identification {
+	margin-left: 200px;
+}
+
+.list {
+	position: absolute;
+	top: 140px;
+	left: 600px;
+	background-color: silver;
+	padding: 5px;
+	border-radius: 5px
+}
+
+#survey {
+	margin: 10px;
+	background-image: url(http://www.audubon.org/sites/default/files/Yellow_Warbler_l07-48-261_l_1.jpg);
+	padding: 5px;
+	text-align: center;
+	background-size: 10%;
+	}
+
+.table {
+	margin-left: 40%;
+	border: 1px solid black;
+	background-color: silver; 
+	text-align: center;
+}
+
+table {
+	text-align: center;
+	background-color: white;
+}
+
+li {
+	margin: 2px;
+}
+
+td {
+	font-size: .8em;
+}
+
+a:visited {
+	color: purple;
+}
+
+@media screen and (max-width: 400px) {
+  #Title {
+    font-size: 80%;
+  }
 }

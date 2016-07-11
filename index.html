@@ -5,13 +5,15 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<h1>Welcome to my website about warblers!</h1>
-	<p>This website is all about warblers, a broad and wonderful group of birds</p>
-	<h2>What do warblers look like?</h2>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Dendroica-cerulea-002.jpg" alt="cerulean warbler" heigth="300" width="300"/>
-		<p>Image taken from <a href="https://en.wikipedia.org/wiki/Cerulean_warbler">Wiki</a>
-		</p>
-	<div>
+	<h1 id="Title">Welcome to my website about warblers!</h1>
+	<p id="intro">This website is all about warblers, a broad and wonderful group of birds</p>
+	<div id="identification">
+		<h2>What do warblers look like?</h2>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Dendroica-cerulea-002.jpg" alt="cerulean warbler" height="300" width="300"/>
+			<p>Image taken from <a href="https://en.wikipedia.org/wiki/Cerulean_warbler">Wiki</a>
+			</p>
+	</div>
+	<div class="list">
 	<h3>Warbler information</h3>
 	<p>Here are some general facts about warblers</p>
 	<ul>
@@ -21,7 +23,7 @@
 		<li>Warblers tend to be small insectivorous species</li>
 	</ul>
 	</div>
-	<div>
+	<div class="table">
 	<p>Warblers can be broken up into two groups, old world and new world.</p>
 	<table border=1>
 		<tr>
@@ -46,18 +48,20 @@
 	<p>For detailed information about wood-warblers check out this <a href="https://www.allaboutbirds.org/guide/browse_tax.aspx?family=40">site</a></p>
 	<p>This website is formatted very neatly, and is easy to view. There are useful links embedded in the lists. I recognize a lot of the elements in the source code, and its helpful to see how the arrangement of different elements can make a site really look good.</p>
 	<br>
+	<div id="survey">
 	<h3>Survey</h3>
-	<form action="input.html">
-		<div>
-		<label>Was this page informational?</label>
-		<select name="helpful?">
-			<option value="yes">Yes</option>
-			<option value="no">No</option>
-		</select>
-		<div>
-			<button type="submit" name="button">Submit</button>
-		</div>
-		</div>
-	</form>
+		<form action="input.html">
+			<div>
+			<label>Was this page informational?</label>
+			<select name="helpful?">
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</select>
+			<div>
+				<button type="submit" name="button">Submit</button>
+			</div>
+			</div>
+		</form>
+	</div>
 </body>
 </html>
