@@ -11,6 +11,10 @@
 	text-align: center;
 }
 
+#identification {
+	margin-left: 200px;
+}
+
 .list {
 	position: absolute;
 	top: 120px;
