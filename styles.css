@@ -56,3 +56,9 @@ td {
 a:visited {
 	color: purple;
 }
+
+@media screen and (max-width: 400px) {
+  #Title {
+    font-size: 80%;
+  }
+}
